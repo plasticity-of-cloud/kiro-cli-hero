@@ -29,10 +29,12 @@ Connect Kiro Pro+/Power subscription directly to Microsoft Entra ID (via M365 pl
 
 1. Go to **Microsoft Entra admin center** → https://entra.microsoft.com
 2. Navigate to **Enterprise applications** → **New application**
-3. Select **"Create your own application"**
-4. Name: `Kiro-Entra`
-5. Select: **"Integrate any other application you don't find in the gallery (Non-gallery)"**
-6. Click **Create**
+3. Search for **"Kiro"** in the App Gallery
+4. Select the **Kiro** gallery app and click **Create**
+
+> **Note:** If Kiro is available as a gallery app, it comes pre-configured with redirect URIs, scopes, and SCIM provisioning templates. You may be able to skip parts of Step 2. Verify each setting still matches what's documented below — if already configured, move to Step 3.
+>
+> If the gallery app is not available in your region, fall back to: **"Create your own application"** → name it `Kiro-Entra` → select **"Integrate any other application you don't find in the gallery (Non-gallery)"** → Create.
 
 ---
 
